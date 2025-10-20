@@ -9,11 +9,12 @@ export default function Counter(){
     }
 
     const countStyle= {
-        border: "2px solid yellow"
+        border: "2px solid yellow",
+        
     }
 
     return (
-        <div style={countStyle}>
+        <div style={countStyle} className="border-radius">
             <h3>Count: {count}</h3>
             <button onClick={handleAdd}>Add</button>
         </div>
