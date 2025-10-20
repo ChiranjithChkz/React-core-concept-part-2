@@ -4,6 +4,7 @@ import Users from './Users';
 import friends from './friends';
 import Posts from './posts';
 import Photos from './photos';
+import Players from './players';
 import './App.css'
 import { Suspense } from 'react';
 
@@ -52,11 +53,13 @@ function App() {
 
       <h1>Vite + React</h1>
 
+      <Players></Players>
 
+{/* 
 
         <Suspense fallback={<h1>Photo is loading...</h1>}>
              <Photos photosPromise={photosPromise}></Photos>
-        </Suspense>  {/**1.1 then suspense */}
+        </Suspense>  *1.1 then suspense */}
 
 
 {/*       
